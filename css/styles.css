@@ -31,7 +31,8 @@ a {
 }
 /* Тіло */
 body {
-  color: var(--logotip-text-color);
+  color: #434455;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
 }
 
