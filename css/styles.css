@@ -16,7 +16,11 @@ a {
 /* Логотип */
 .home {
   color: var(--primary-text-color);
-  font-family: Raleway, Times New Roman;
+  font-family: Raleway;
+  font-size: 18px;
+
+  line-height: 1.16px;
+  letter-spacing: 0.54px;
 }
 
 .web {
@@ -34,9 +38,20 @@ body {
 /* Шапка */
 .site-nav .site-nav-list {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.32px;
 }
 .site-nav-adress .site-nav-adress-list {
   color: var(--title-text-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .site-nav .site-nav-list:focus,
 .site-nav .site-nav-list:hover {
@@ -48,14 +63,42 @@ body {
 }
 .feature-list .title {
   color: var(--primary-text-color);
+
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .title-content {
   color: var(--title-text-color);
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.title-chapter {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
 }
 /* Кнопка */
 .button .button-accent {
   color: var(--accent-color);
+  font-family: inherit;
+
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 /* Герой */
 .hero-title {
