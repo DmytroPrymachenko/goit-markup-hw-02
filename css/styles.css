@@ -104,3 +104,30 @@ body {
 .hero-title {
   color: var(--primary-text-color);
 }
+
+/* підлога
+ */
+.home-floor {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-size: 18px;
+
+  line-height: 1.16px;
+  letter-spacing: 0.54px;
+}
+
+.web-floor {
+  color: var(--accent-color);
+}
+.studio-floor {
+  color: var(--logotip-text-color);
+}
+.floor {
+  color: var(--logotip-text-color);
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
