@@ -63,6 +63,10 @@ body {
 }
 /* Main */
 /* Секція герой */
+.hero {
+  background-color: var(--primary-text-color);
+}
+/* Заголовок героя */
 .hero-title {
   color: var(--logotip-text-color);
   font-family: 'Roboto', sans-serif;
@@ -74,6 +78,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+/* Кнопка героя */
 .hero-button {
   color: var(--logotip-text-color);
   font-family: 'Roboto', sans-serif;
@@ -83,6 +88,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 .hero-button:focus,
 .hero-button:hover {
@@ -129,10 +135,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-}
-/* Герой */
-.hero-title {
-  color: var(--primary-text-color);
 }
 
 /* підлога
