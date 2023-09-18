@@ -16,7 +16,7 @@ a {
 /* Логотип */
 .logo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -33,11 +33,11 @@ a {
 body {
   color: #434455;
   background-color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Шапка */
-.site .site-nav .site-nav-list {
+.site-nav-link {
   color: var(--primary-text-color);
 
   font-family: Roboto;
@@ -47,7 +47,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.site-nav-adress .site-nav-adress-list {
+.site-nav-adress-link {
   color: var(--title-text-color);
 
   font-size: 16px;
@@ -55,8 +55,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.site-nav .site-nav-list:focus,
-.site-nav .site-nav-list:hover {
+.site-nav .site-nav-link:focus,
+.site-nav .site-nav-link:hover {
   color: var(--accent-color);
 }
 /* Main */
@@ -92,9 +92,9 @@ body {
   letter-spacing: 0.72px;
 }
 /* Кнопка */
-.button .button-accent {
+.button {
   color: var(--accent-color);
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
 
   font-size: 16px;
 
