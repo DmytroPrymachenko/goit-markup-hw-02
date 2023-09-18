@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 /* Логотип */
-.home {
+.logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 
-.studio {
+.logo .logo-studio {
   color: var(--primary-text-color);
 }
 /* Тіло */
@@ -37,13 +37,14 @@ body {
 }
 
 /* Шапка */
-.site-nav .site-nav-list {
+.site .site-nav .site-nav-list {
   color: var(--primary-text-color);
 
+  font-family: Roboto;
   font-size: 16px;
-
+  font-style: normal;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .site-nav-adress .site-nav-adress-list {
