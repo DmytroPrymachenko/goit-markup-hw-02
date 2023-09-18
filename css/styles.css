@@ -15,17 +15,17 @@ a {
 }
 /* Логотип */
 .home {
-  color: var(--primary-text-color);
-  font-family: Raleway;
-  font-size: 18px;
-
-  line-height: 1.16px;
-  letter-spacing: 0.54px;
-}
-
-.web {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
 .studio {
   color: var(--primary-text-color);
 }
@@ -120,6 +120,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .web-floor {
