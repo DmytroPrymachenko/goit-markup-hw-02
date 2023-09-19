@@ -149,6 +149,7 @@ body {
 }
 .team-list {
   background-color: #ffffff;
+  
 }
 .team-title {
   color: var(--primary-text-color);
@@ -163,6 +164,7 @@ body {
 }
 .team-title-content {
   color: var(--primary-text-color);
+  background-color: #FFFFFF
   text-align: center;
 
   font-family: 'Roboto', sans-serif;
