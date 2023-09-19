@@ -23,7 +23,7 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -47,7 +47,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .site-nav-adress-link {
   color: var(--title-text-color);
@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .site-nav-link:focus,
 .site-nav-link:hover {
@@ -108,7 +108,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .advantages-link {
   color: var(--title-text-color);
@@ -118,7 +118,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 /* <!-- 2га основна секція work
        --> */
@@ -133,7 +133,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 /* <!-- 3тя Основна секція "Team"--> */
@@ -148,7 +148,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team-title-content {
@@ -160,7 +160,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
 }
 .team-content {
   color: var(--title-text-color);
@@ -172,7 +172,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 /* підлога
@@ -187,7 +187,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -203,7 +203,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 /* Сторінка портфоліо
@@ -220,7 +220,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button-portfolio-accent:focus,
@@ -245,7 +245,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 /* Контент текст */
 .portfolio-content {
@@ -256,5 +256,5 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
