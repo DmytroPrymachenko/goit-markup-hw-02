@@ -142,7 +142,7 @@ body {
 /* <!-- 3тя Основна секція "Team"--> */
 .team {
   color: var(--primary-text-color);
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-list {
 }
@@ -166,7 +166,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 .team-content {
   color: var(--title-text-color);
