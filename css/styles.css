@@ -57,11 +57,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav-link:focus {
-  color: #404bbf;
-}
+.site-nav-link:focus,
 .site-nav-link:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .address-header {
@@ -100,7 +98,7 @@ body {
 }
 .hero-button:focus,
 .hero-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* <!-- Перша основна секція advantages
       --> */
