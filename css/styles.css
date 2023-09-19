@@ -95,13 +95,13 @@ body {
 .hero-button:hover {
   color: #404bbf;
 }
-/* <!-- Перша основна секція 
+/* <!-- Перша основна секція advantages
       --> */
 .advantages {
   color: var(--primary-text-color);
 }
 .advantages-title {
-  color: var(---primary-text-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -119,13 +119,67 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* <!-- 2га основна секція work
+       --> */
+.work {
+  color: var(--primary-text-color);
+}
+.work-title {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* <!-- 3тя Основна секція "Team"--> */
+.team {
+  color: var(--primary-text-color);
+}
+.team-title {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-title-content {
+  color: var(--primary-text-color);
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.team-content {
+  color: var(--title-text-color);
+
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
 
 /* підлога
  */
 .footer-floor {
   background-color: #2e2f42;
 }
-.home-floor {
+.logo-floor {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -140,15 +194,16 @@ body {
 .web-floor {
   color: var(--accent-color);
 }
-.studio-floor {
+.logo-floor-studio {
   color: #f4f4fd;
 }
-.floor {
+.floor-content {
   color: #f4f4fd;
-
+  /* Body */
+  font-family: Roboto;
   font-size: 16px;
-
+  font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
