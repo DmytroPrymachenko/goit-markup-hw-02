@@ -142,9 +142,9 @@ body {
 /* <!-- 3тя Основна секція "Team"--> */
 .team {
   color: var(--primary-text-color);
-  background-color: #ffffff;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-title {
   color: var(--primary-text-color);
