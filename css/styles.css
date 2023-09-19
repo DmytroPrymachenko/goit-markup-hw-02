@@ -23,7 +23,7 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -47,7 +47,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.2em;
 }
 .site-nav-adress-link {
   color: var(--title-text-color);
@@ -55,7 +55,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.2em;
 }
 .site-nav-link:focus,
 .site-nav-link:hover {
@@ -87,7 +87,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.4em;
   cursor: pointer;
   background-color: #4d5ae5;
 }
