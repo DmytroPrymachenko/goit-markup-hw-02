@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-.logo .logo-studio {
+.logo-studio {
   color: var(--primary-text-color);
 }
 /* Тіло */
@@ -142,7 +142,6 @@ body {
   background-color: #f4f4fd;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-title {
   color: var(--primary-text-color);
