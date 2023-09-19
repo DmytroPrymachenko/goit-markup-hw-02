@@ -238,6 +238,7 @@ body {
  */
 .portfolio-list {
   list-style: none;
+  background-color: #ffffff;
 }
 .portfolio-link {
   text-decoration: none;
