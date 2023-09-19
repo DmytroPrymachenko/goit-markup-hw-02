@@ -145,6 +145,7 @@ body {
 /* <!-- 3тя Основна секція "Team"--> */
 .team {
   color: var(--primary-text-color);
+  background-color: #f4f4fd;
 }
 .team-list {
   background-color: #ffffff;
