@@ -61,6 +61,12 @@ body {
 .site-nav-link:hover {
   color: #404bbf;
 }
+
+.site-nav-adress-link:focus,
+.site-nav-adress-link:hover {
+  color: #404bbf;
+}
+
 .address-header {
   font-style: normal;
 }
