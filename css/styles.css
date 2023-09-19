@@ -229,6 +229,9 @@ body {
 }
 /* Портфоліо контент
  */
+.portfolio-list {
+  list-style: none;
+}
 /* Заголовок */
 .portfolio-title {
   color: var(--primary-text-color);
