@@ -57,9 +57,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav-link:focus,
+.site-nav-link:focus {
+  color: #404bbf;
+}
 .site-nav-link:hover {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 .address-header {
@@ -96,7 +98,10 @@ body {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.hero-button:focus,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 .hero-button:hover {
   background-color: #404bbf;
 }
