@@ -9,10 +9,10 @@
 /* Білий колір F4F4FD */
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
-li {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 /* Логотип */
