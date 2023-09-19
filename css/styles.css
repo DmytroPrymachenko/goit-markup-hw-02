@@ -65,6 +65,11 @@ body {
 .address-header {
   font-style: normal;
 }
+
+.site-nav-adress-link:focus,
+.site-nav-adress:hover {
+  color: #404bbf;
+}
 /* Main */
 /* 
 Секція герой */
