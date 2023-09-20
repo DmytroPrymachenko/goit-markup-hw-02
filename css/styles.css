@@ -38,7 +38,7 @@ img {
 
 .container {
   margin: 0 auto;
-  width: 1128px;
+  width: 1158px;
 
   padding-right: 16px;
   padding-left: 16px;
@@ -75,7 +75,9 @@ img {
   text-decoration: none;
   margin: 0 auto;
   padding-top: 25.5px;
+
   padding-bottom: 25.5px;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -103,6 +105,14 @@ body {
   display: flex;
 }
 /* Стиль */
+.site-nav {
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .site-nav-link {
   color: var(--primary-text-color);
 
@@ -113,6 +123,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.site-nav-adress {
+  display: flex;
+
+  align-items: center;
+  margin-left: 330px;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+}
+
 .site-nav-adress-link {
   color: var(--title-text-color);
 
@@ -154,6 +176,8 @@ body {
 
   text-align: center;
   letter-spacing: 0.02em;
+
+  margin: 188px, 472px, 48px, 472px;
 }
 /* Кнопка героя */
 .hero-button {
