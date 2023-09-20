@@ -37,11 +37,11 @@ img {
 }
 
 .container {
-  margin: auto;
-  width: 1158;
-  padding-left: 15;
-  padding-right: 15;
+  margin: 0 auto;
+  width: 1143px;
+  padding: 0 16px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
