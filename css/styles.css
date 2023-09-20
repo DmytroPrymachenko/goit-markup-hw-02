@@ -93,10 +93,11 @@ body {
   display: flex;
   align-items: center;
   margin: auto;
-  height: 72;
+  height: 72px;
 }
 .site {
   display: flex;
+  align-items: center;
 }
 .address-header {
   display: flex;
