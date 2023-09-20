@@ -4,17 +4,62 @@
   --accent-color: #4d5ae5;
   --logotip-text-color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: currentColor;
+}
+button {
+  cursor: pointer;
+  color: currentColor;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  width: 1158;
+  padding-left: 15;
+  padding-right: 15;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Основний чорний колір 2E2F42 */
 /* Фіолетовий колір 4D5AE5 */
 /* Білий колір F4F4FD */
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
+
 /* Логотип */
 .logo {
   color: var(--accent-color);
@@ -39,6 +84,20 @@ body {
 }
 
 /* Шапка */
+.container-header {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 1158;
+  height: 72;
+}
+.site {
+  display: flex;
+}
+.address-header {
+  display: flex;
+}
+/* Стиль */
 .site-nav-link {
   color: var(--primary-text-color);
 
@@ -72,6 +131,7 @@ body {
 .site-nav-adress-link:hover {
   color: #404bbf;
 }
+
 /* Main */
 /* 
 Секція герой */
